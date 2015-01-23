@@ -25,7 +25,6 @@ public:
                           std::vector<IplImage*>       &imgDetect);
 
     void accumulate_votes(CvSize                                                  const &size,
-                          std::vector<IplImage*>                                  const &features,
                           std::vector<float>                                      const &ratios,
                           std::vector<std::vector<std::vector<LeafNode const *>>> const &regression,
                           std::vector<IplImage*>                                        &imgDetect);
